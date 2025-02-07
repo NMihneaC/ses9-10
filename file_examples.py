@@ -9,7 +9,7 @@ with open("text", "r") as fp:
 with open('text', 'r') as fp:
     line_number = 1
     for line in fp:
-        # print(line, end="") #print adds a new line as the command is repeated, end="" fixes it
+        # print(line, end="")
         # print(line.rstrip())
         print(f"{line_number}: {line.rstrip()}")
         line_number += 1
